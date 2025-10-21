@@ -8,7 +8,7 @@ public delegate void MovementDelegate(float inputX, float inputY, bool isWalking
 
 public static class EventHandler
 {
-    //移动事件
+    //定义是移动事件
     public static event MovementDelegate MovementEvent;
 
     //关于移动事件，以及发布者的调用
